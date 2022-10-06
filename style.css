@@ -50,6 +50,7 @@ section.second {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
     margin-bottom: 2rem;
+    position: relative; top: -100px;
     background: 
 
 }
@@ -71,12 +72,13 @@ section.second {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .storepara{
-    padding: 5px;
-    text-align: right;
-    width: 55%;
-    float:inline-end;
+    padding: auto;
+    text-align: center;
+    width: 32%;
+    position: relative; left: 500px; top: -150px;;
+    margin: auto;
     color: rgb(220, 220, 220);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .carrots{
     width: 30%;
