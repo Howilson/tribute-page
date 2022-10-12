@@ -82,6 +82,7 @@ section.second {
 }
 .carrots{
     width: 30%;
+    padding: auto;
 }
 .order-footer{
     height: 40px;
