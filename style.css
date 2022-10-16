@@ -2,10 +2,12 @@
     /* margin: 0; */
     /* padding: 0; */
 }
-body{
+html,body{
+  min-height:100%;
     background:radial-gradient(circle at center, #65409C, #5e6ad5)
         /* margin: 0; */
     /* padding: 0; */
+
 }
 header{
 text-align: center;
@@ -35,8 +37,8 @@ nav ul {
 
 }
 section img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  display: block;
 }
 section.first {
     display: grid;
@@ -45,18 +47,22 @@ section.first {
     margin-bottom: 2rem;
     padding-top: 20px;
 }
-
 section.second {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
-    margin-bottom: 0%;
-    position: relative; top: -100px;
-    width: 100%;
-    background: 
+    margin-bottom:auto;
+    position: relative; top: -100px; bottom: 0px;
+    width: fit-content;
+    height: fit-content;
+    background:
 }
 .cutimg{
 position: relative; top: -300px;
+}
+.garden.img{
+width: auto;
+position: relative;
 }
 
 .paragraph1{
