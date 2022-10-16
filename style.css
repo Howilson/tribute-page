@@ -9,8 +9,8 @@ body{
 }
 header{
 text-align: center;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size:95px;
+font-family:cursive;
+font-size:65px;
 color: azure;
 }
 .order-container {
@@ -50,8 +50,9 @@ section.second {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0%;
     position: relative; top: -100px;
+    width: 100%;
     background: 
 }
 .cutimg{
@@ -60,7 +61,7 @@ position: relative; top: -300px;
 
 .paragraph1{
     justify-content: space-around;
-    padding-top: 155px;
+    padding-top: 115px;
     text-align: center;
     color: rgb(220, 220, 220);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -86,11 +87,11 @@ position: relative; top: -300px;
 
 }
 .order-footer{
-    height: 40px;
+  height: 50px;
     width: 100%;
     background-color: #40469c;
     text-align: center;
-    position: relative; top: -200px;
+    position: auto;
     padding-top: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:azure
